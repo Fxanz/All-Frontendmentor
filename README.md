@@ -23,6 +23,7 @@ The following projects are still in progress and will be completed soon:
 5. results-summary-component-main
 6. stats-preview-card-component-main
 7. sunnyside-agency-landing-page-main
+8. intro-component-with-signup-form-master
 
 ## Getting Started
 
