@@ -11,6 +11,7 @@ The following projects have been completed and are ready for exploration:
 3. {Done}product-preview-card-component-main
 4. {Done}qr-code-component-main
 5. {Done}single-price-grid-component-master
+6. {Done}ping-coming-soon-page-master
 
 ## In Progress Projects
 
