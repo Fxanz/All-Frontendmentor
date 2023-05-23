@@ -88,11 +88,13 @@ body {
               border-radius: 0.5rem;
             }
             .icon{
+              display: none;
               position: absolute;
               right: 10px;
               top: 10px;
             }
             .msg {
+              display: none;
               color: #ff7a7a;
               font-style: italic;
               text-align: right;
@@ -130,6 +132,7 @@ body {
 @media (max-width: 768px) {
   body {
     margin: 0 50px !important;
+    height: auto;
   }
   main {
     display: flex;
