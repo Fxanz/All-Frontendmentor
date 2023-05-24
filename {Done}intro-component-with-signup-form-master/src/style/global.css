@@ -22,6 +22,7 @@ body {
   height: 100vh;
   margin: 0 20px;
 }
+
 body main {
   display: flex;
   align-items: center;
@@ -29,6 +30,7 @@ body main {
   width: 100%;
   gap: 1em;
 }
+
 body main .info-container {
   max-width: 30rem;
   color: white;
@@ -37,19 +39,23 @@ body main .info-container {
   gap: 1.875rem;
   padding: 1.375rem;
 }
+
 body main .info-container h1 {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
+
 body main .info-container p {
   font-size: 0.875rem;
 }
+
 body main .sign-up-container {
   max-width: 30rem;
   display: flex;
   flex-direction: column;
   gap: 1.875rem;
 }
+
 body main .sign-up-container .trial {
   background-color: hsl(248, 32%, 49%);
   color: white;
@@ -58,9 +64,11 @@ body main .sign-up-container .trial {
   border-radius: 0.5rem;
   text-align: center;
 }
+
 body main .sign-up-container .trial span {
   font-weight: 700;
 }
+
 body main .sign-up-container .sign-up form {
   background-color: white;
   display: flex;
@@ -70,12 +78,14 @@ body main .sign-up-container .sign-up form {
   border-radius: 0.5rem;
   box-shadow: 0px 0.25rem 0px 0px rgb(190, 98, 98);
 }
+
 body main .sign-up-container .sign-up form .input-div {
   width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
 }
+
 body main .sign-up-container .sign-up form .input-div input {
   width: 100%;
   border: 0.0625rem solid #e4e2e2;
@@ -84,24 +94,29 @@ body main .sign-up-container .sign-up form .input-div input {
   padding: 0.8125rem;
   border-radius: 0.5rem;
 }
+
 body main .sign-up-container .sign-up form .input-div .icon {
   display: none;
   position: absolute;
   right: 10px;
   top: 10px;
 }
+
 body main .sign-up-container .sign-up form .input-div .custom-placeholder::-moz-placeholder {
   color: #ff7a7a;
 }
+
 body main .sign-up-container .sign-up form .input-div .custom-placeholder::placeholder {
   color: #ff7a7a;
 }
+
 body main .sign-up-container .sign-up form .input-div .msg {
   display: none;
   color: #ff7a7a;
   font-style: italic;
   text-align: right;
 }
+
 body main .sign-up-container .sign-up form button {
   background-color: hsl(154, 59%, 51%);
   border: none;
@@ -112,25 +127,30 @@ body main .sign-up-container .sign-up form button {
   font-weight: 100;
   box-shadow: 0px 0.25rem 0px 0px rgb(38, 146, 99);
 }
+
 body main .sign-up-container .sign-up form button:focus {
   box-shadow: 0px 0px 0px 0px rgb(38, 146, 99);
   transform: translateY(5px);
 }
+
 body main .sign-up-container .sign-up form p {
   text-align: center;
   font-size: 0.75rem;
   color: #b9b6d9;
 }
+
 body main .sign-up-container .sign-up form p a {
   font-weight: bold;
   color: #ff7a7a;
 }
 
 @media (max-width: 768px) {
+
   body {
     margin: 0 50px !important;
     height: auto;
   }
+
   main {
     display: flex;
     flex-direction: column;
@@ -138,12 +158,15 @@ body main .sign-up-container .sign-up form p a {
     width: 100% !important;
     padding: 30px 0 !important;
   }
+
   .info-container {
     margin-bottom: 30px;
   }
+
   .info-container h1 {
     font-size: 1.8rem !important;
   }
+  
   .info-container p {
     font-size: 0.9rem !important;
   }
