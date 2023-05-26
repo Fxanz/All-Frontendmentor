@@ -95,19 +95,6 @@ main {
   width: 20px;
   height: 20px;
 }
-
-.attribution {
-  margin-top: 1rem;
-  font-size: 11px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-}
 @media only screen and (max-width: 650px) {
   main {
     grid-template-columns: 1fr;

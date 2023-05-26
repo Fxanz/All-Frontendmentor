@@ -115,18 +115,6 @@ p {
   color: #aae0dc;
 }
 
-.attribution {
-  margin-top: 1rem;
-  font-size: 11px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-}
 @media screen and (max-width: 640px) {
   body {
     min-height: 100vh;

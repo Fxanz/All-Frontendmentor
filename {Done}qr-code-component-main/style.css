@@ -48,16 +48,3 @@ img {
 .subheader {
   margin: 1rem 0 1rem 0;
 }
-
-.attribution {
-  margin-top: 1rem;
-  font-size: 11px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-}

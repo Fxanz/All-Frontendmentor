@@ -74,11 +74,7 @@ main {
   margin-bottom: 1rem;
   width: 90%;
 }
-footer {
-  margin-top: 2rem;
-  color: hsl(193, 38%, 86%);
-  text-align: center;
-}
+
 @media screen and (max-width: 580px) {
   .container {
     width: 30rem;

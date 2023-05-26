@@ -157,17 +157,3 @@ hr {
 .creator h4 span:hover {
   color: var(--Cyan);
 }
-
-.attribution {
-  margin-top: 1rem;
-  font-size: 11px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: var(--bold-font);
-  color: var(--White);
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-}
