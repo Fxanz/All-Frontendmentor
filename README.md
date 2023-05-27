@@ -2,9 +2,6 @@
 
 Welcome ! This repository contains a collection of frontend practice projects from [Frontend Mentor](https://www.frontendmentor.io/)
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 ## Getting Started
 
 To use this repository, follow these steps:
