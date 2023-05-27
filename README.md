@@ -1,31 +1,10 @@
 # Repository All-Frontendmentor
 
-Welcome to the All-Frontendmentor repository! This repository contains a collection of frontend practice projects from Frontend Mentor (frontendmentor.io). These projects are designed to help you enhance your frontend development skills. Currently, there are 12 projects in this repository, with 5 projects marked as completed ({Done}).
+Welcome ! This repository contains a collection of frontend practice projects from [Frontend Mentor](https://www.frontendmentor.io/)
 
-## Completed Projects
+## Installation
 
-The following projects have been completed and are ready for exploration:
-
-1. {Done}advice-generator-app-main
-2. {Done}nft-preview-card-component-main
-3. {Done}product-preview-card-component-main
-4. {Done}qr-code-component-main
-5. {Done}single-price-grid-component-master
-6. {Done}ping-coming-soon-page-master
-
-## In Progress Projects
-
-The following projects are still in progress and will be completed soon:
-
-1. huddle-landing-page-with-single-introductory-section-master
-2. insure-landing-page-master
-3. news-homepage-main
-4. profile-card-component-main
-5. results-summary-component-main
-6. stats-preview-card-component-main
-7. sunnyside-agency-landing-page-main
-8. intro-component-with-signup-form-master
-
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 ## Getting Started
 
 To use this repository, follow these steps:
