@@ -1,6 +1,6 @@
 # Repository All-Frontendmentor
 
-Welcome ! This repository contains a collection of frontend practice projects from [Frontend Mentor](https://www.frontendmentor.io/)
+Welcome ! This repository contains a collection of frontend practice projects from [FrontendMentor](https://www.frontendmentor.io/){:target="_blank"}
 
 ## Getting Started
 
