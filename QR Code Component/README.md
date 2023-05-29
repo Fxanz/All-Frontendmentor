@@ -41,7 +41,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 find out how to use good root and how to use css reset across different files.
 
 ```html
-<link rel="stylesheet" href="./src/style/reset.css" /> <link rel="stylesheet" href="./src/style/global.css" />
+<link rel="stylesheet" href="./src/style/reset.css" /> 
+<link rel="stylesheet" href="./src/style/global.css" />
 ```
 
 ```css
@@ -96,4 +97,4 @@ I'll focus to 'best practice' my code in the future, using root is more proficie
 ## Author
 
 - Frontend Mentor - [@Fxanz](https://www.frontendmentor.io/profile/Fxanz)
-- Twitter - [@yourusername](https://www.twitter.com/IFxanz)
+- Twitter - [@IFxanz](https://www.twitter.com/IFxanz)
