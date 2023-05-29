@@ -4,9 +4,15 @@
   --Light-gray: hsl(212, 45%, 89%);
   --Grayish-blue: hsl(220, 15%, 55%);
   --Dark-blue: hsl(218, 44%, 22%);
+
+  --font-small : 16px;
+  --font-medium : 22px;
+  --font-large : 30px;
+
+  --font-family : "Outfit", sans-serif;
 }
 * {
-  font-family: "Outfit", sans-serif;
+  font-family: var(--font-family);
 }
 body {
   background-color: var(--Light-gray);
@@ -26,17 +32,21 @@ main {
 .img-container img {
   border-radius: 15px;
 }
+
 .info-container {
   padding: 22px 10px;
   text-align: center;
 }
+
 .info-container h1{
   color: var(--Dark-blue);
   font-size:20px;
   font-weight:700;
   margin-bottom: 15px;
-  font-size: 22px;
+  font-size: var(--font-medium);
 }
+
 .info-container p{
+  font-size: var(--font-small);
   color: var(--Grayish-blue);
 }
