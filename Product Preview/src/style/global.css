@@ -7,15 +7,11 @@
   --Dark-grayish-blue: hsl(228, 12%, 48%);
   --White: hsl(0, 0%, 100%);
 
-  --font-small: 16px;
-  --font-medium: 22px;
-  --font-large: 30px;
-
   --font-family: "Fraunces", serif;
   --sec-font-family: "Montserrat", sans-serif;
 }
 
-body{
+body {
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -23,17 +19,19 @@ body{
   height: 100vh;
   font-family: var(--sec-font-family);
   background-color: var(--Cream);
+  margin: 0 20px;
 }
-main{
+main {
   max-width: 600px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.img-container img{
+.img-container img {
   border-radius: 20px 0 0 20px;
 }
-.info-container{
+
+.info-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,32 +39,35 @@ main{
   background-color: var(--White);
   border-radius: 0 20px 20px 0;
 }
-.info-container h2{
+.info-container h2 {
   font-size: 15px;
   letter-spacing: 7px;
+  color: hsl(0, 0%, 50%);
 }
-.info-container h1{
+.info-container h1 {
   font-family: var(--font-family);
   font-size: 35px;
 }
-.info-container p{
+.info-container p {
   font-size: 14px;
   line-height: 1.4rem;
+  color: hsl(0, 0%, 50%);
 }
-.info-container ul{
+.info-container ul {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 15px;
 }
-.info-container ul li:first-child{
+.info-container ul li:first-child {
   color: var(--Dark-cyan);
-  font-size: 24px;
+  font-size: 32px;
   font-family: var(--font-family);
 }
-.info-container ul li:last-child{
-  text-decoration:line-through;
+.info-container ul li:last-child {
+  text-decoration: line-through;
+  color: hsl(0, 0%, 50%);
 }
-.info-container button{
+.info-container button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,5 +76,30 @@ main{
   border: none;
   color: var(--White);
   padding: 15px 0;
-  border-radius: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.info-container button:hover {
+  background-color: hsl(158, 36%, 27%);
+}
+@media (max-width: 599px) {
+  body{
+    margin: 20px;
+  }
+  .img-container img {
+    border-radius: 20px 20px 0 0;
+  }
+  .info-container{
+    border-radius: 0 0 20px 20px;
+    gap: 1rem;
+  }
+  .info-container h1{
+    font-size: 28px;
+  }
+  .info-container p{
+    font-size: 13px;
+  }
+  main {
+    grid-template-columns: 1fr;
+  }
 }
