@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -11,7 +11,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -19,11 +18,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Screenshot
 
 ![](./src/assets/images/Result.png)
+![](./src/assets/images/ResultMobile.png)
 
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-using-html-css-9kojabnwDp)
-- Live Site URL: [Live Site](https://product-preview-card-component-fxanz.vercel.app)
+- Live Site URL: [Live Site](https://product-preview-component-fxanz.vercel.app)
 
 ## My process
 
@@ -34,65 +34,29 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
 
 ### What I learned
 
-find out how to use good root and how to use css reset across different files.
+i learn how to use picture and source for responsive img
 
 ```html
-<link rel="stylesheet" href="./src/style/reset.css" /> 
-<link rel="stylesheet" href="./src/style/global.css" />
+<picture>
+  <source media="(min-width: 600px)" srcset="./src/assets/images/image-product-desktop.jpg" />
+  <img src="./src/assets/images/image-product-mobile.jpg" alt="Product Image" />
+</picture>
 ```
 
+i learn how to use first child and last child in css
 ```css
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font: inherit;
-  list-style: none;
-  text-decoration: none;
-  outline: none;
+.info-container ul li:first-child {
 }
-
-body {
-  min-height: 100vh;
-}
-
-img,
-picture,
-svg,
-video {
-  display: block;
-  max-width: 100%;
-}
-```
-
-```css
-:root {
-  --White: hsl(0, 0%, 100%);
-  --Light-gray: hsl(212, 45%, 89%);
-  --Grayish-blue: hsl(220, 15%, 55%);
-  --Dark-blue: hsl(218, 44%, 22%);
-
-  --font-small: 16px;
-  --font-medium: 22px;
-  --font-large: 30px;
-
-  --font-family: "Outfit", sans-serif;
+.info-container ul li:last-child {
 }
 ```
 
 ### Continued development
 
 I'll focus to 'best practice' my code in the future, using root is more proficient and understands default css better, reset css etc
-
-### Useful resources
-
-- [Nathasha](https://uxplanet.org/challenge-009-qr-code-component-535916bbd967) - this article helped to organize my code better, with clear descriptions that made it clearer for me to understand where to go and what kind of div to create
 
 ## Author
 
