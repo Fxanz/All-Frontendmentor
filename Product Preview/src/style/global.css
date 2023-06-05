@@ -14,3 +14,66 @@
   --font-family: "Fraunces", serif;
   --sec-font-family: "Montserrat", sans-serif;
 }
+
+body{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: var(--sec-font-family);
+  background-color: var(--Cream);
+}
+main{
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-container img{
+  border-radius: 20px 0 0 20px;
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: var(--White);
+  border-radius: 0 20px 20px 0;
+}
+.info-container h2{
+  font-size: 15px;
+  letter-spacing: 7px;
+}
+.info-container h1{
+  font-family: var(--font-family);
+  font-size: 35px;
+}
+.info-container p{
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+.info-container ul{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.info-container ul li:first-child{
+  color: var(--Dark-cyan);
+  font-size: 24px;
+  font-family: var(--font-family);
+}
+.info-container ul li:last-child{
+  text-decoration:line-through;
+}
+.info-container button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--Dark-cyan);
+  border: none;
+  color: var(--White);
+  padding: 15px 0;
+  border-radius: 10px;
+}
