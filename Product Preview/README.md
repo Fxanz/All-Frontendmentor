@@ -22,7 +22,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-using-html-css-9kojabnwDp)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-using-html-css-MYdbb1HsUu)
 - Live Site URL: [Live Site](https://product-preview-component-fxanz.vercel.app)
 
 ## My process
