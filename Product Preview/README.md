@@ -34,6 +34,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 
 ### What I learned
 
@@ -56,7 +57,7 @@ i learn how to use first child and last child in css
 
 ### Continued development
 
-I'll focus to 'best practice' my code in the future, using root is more proficient and understands default css better, reset css etc
+I'll focus to 'best practice' my code in the future, probably will start using sass in the future
 
 ## Author
 
