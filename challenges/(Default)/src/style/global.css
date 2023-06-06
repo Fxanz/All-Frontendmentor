@@ -21,3 +21,8 @@ video {
   display: block;
   max-width: 100%;
 }
+
+:root{
+  --bg-color : #000;
+  --text-color : #fff;
+}
