@@ -4,7 +4,7 @@
   --Bright-Yellow: hsl(71, 73%, 54%);
   --Light-Gray: hsl(204, 43%, 93%);
   --Grayish-Blue: hsl(218, 22%, 67%);
-  --White : #ffffff;
+  --White: #ffffff;
 
   --font-family: "Karla", sans-serif;
 }
@@ -21,14 +21,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: 75px 25px;
+  margin: 55px 25px;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.top-container{
+.top-container {
   background-color: var(--White);
   padding: 1.5rem;
   border-radius: 5px 5px 0 0;
@@ -36,23 +32,27 @@ main {
   flex-direction: column;
   gap: 20px;
 }
-.top-container h1{
+.top-container h1 {
   font-weight: 700;
   color: var(--Cyan);
   font-size: 22px;
 }
-.top-container h2{
+.top-container h2 {
   font-size: 16px;
   font-weight: 700;
   color: var(--Bright-Yellow);
 }
-.top-container p{
+.top-container p {
   font-weight: 400;
   line-height: 1.3rem;
   color: var(--Grayish-Blue);
   font-size: 14px;
 }
-.subscription-container{
+.bottom-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.subscription-container {
   background-color: var(--Cyan);
   padding: 1.5rem;
   display: flex;
@@ -60,31 +60,31 @@ main {
   gap: 20px;
   color: var(--White);
 }
-.subscription-container h1{
+.subscription-container h1 {
   font-weight: 700;
   font-size: 18px;
 }
-.subscription-container ul{
+.subscription-container ul {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.subscription-container ul li:first-child{
+.subscription-container ul li:first-child {
   font-size: 34px;
   font-weight: 700;
 }
-.subscription-container ul li:last-child{
+.subscription-container ul li:last-child {
   opacity: 0.7;
 }
-.subscription-container button{
+.subscription-container button {
   border: none;
   border-radius: 5px;
   color: var(--White);
   background-color: var(--Bright-Yellow);
   padding: 15px 0;
 }
-.why-us-container{
-  background-color: #4ABEBD;
+.why-us-container {
+  background-color: #4abebd;
   padding: 1.5rem;
   border-radius: 0 0 5px 5px;
   display: flex;
@@ -92,12 +92,42 @@ main {
   gap: 20px;
   color: var(--White);
 }
-.why-us-container h1{
+.why-us-container h1 {
   font-weight: bold;
   font-size: 18px;
 }
-.why-us-container p{
+.why-us-container p {
   opacity: 0.7;
   max-width: 230px;
   line-height: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  body {
+    margin: 0px 20px;
+  }
+  main {
+    max-width: 650px;
+  }
+  .top-container,.why-us-container,.subscription-container{
+    padding: 2rem;
+  }
+  .top-container h1{
+    font-size: 28px;
+  }
+  .top-container h2{
+    font-size: 21px;
+  }
+  .top-container p{
+    font-size: 17px;
+  }
+  .subscription-container {
+    border-radius: 0 0 0 5px;
+  }
+  .why-us-container {
+    border-radius: 0 0 5px 0;
+  }
+  .bottom-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
