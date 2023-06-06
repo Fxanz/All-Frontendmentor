@@ -20,4 +20,70 @@ svg,
 video {
   display: block;
   max-width: 100%;
+  overflow: hidden;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --bg: #0d1b09;
+  --text:#f8fcf7;
+  --primary:#3d57b3;
+  --secondary:#f8f5f1;
+  --accent:#070a0e;
+
+  --font-family: "Outfit", sans-serif;
+}
+
+* {
+  font-family: var(--font-family);
+}
+body {
+  height: 100vh;
+  background-color: var(--bg);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main h1 {
+  color: var(--text);
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 35px 0;
+}
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: auto;
+}
+.project-box {
+  width: 350px;
+  padding: 10px;
+  margin: 20px;
+  border: 5px solid var(--primary);
+  border-radius: 5px;
+  position: relative;
+}
+.project-box img {
+  border-radius: 5px;
+}
+.project-tech{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: -15px;
+  background-color: var(--primary);
+  padding: 3px 15px;
+  border-radius: 10px;
+}
+.project-tech img{
+  width: 25px;
 }
