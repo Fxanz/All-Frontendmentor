@@ -23,7 +23,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-using-html-css-MYdbb1HsUu)
-- Live Site URL: [Live Site](https://all-frontendmentor.vercel.app/Product%20Preview/index.html)
+- Live Site URL: [Live Site](https://all-frontendmentor.vercel.app/Product%20Preview)
 
 ## My process
 
