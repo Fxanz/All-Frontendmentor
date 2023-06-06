@@ -23,7 +23,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-using-html-css-9kojabnwDp)
-- Live Site URL: [Live Site](https://qr-code-component-fxanz.vercel.app)
+- Live Site URL: [Live Site](https://all-frontendmentor.vercel.app/Single%20price%20grid/index.html)
 
 ## My process
 
@@ -33,18 +33,15 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Grid
 - Mobile-first workflow
 
 ### What I learned
+i learn how to make website using mobile first approach
 
 ### Continued development
 
-I'll focus to 'best practice' my code in the future, using root is more proficient and understands default css better, reset css etc
-
-### Useful resources
-
-- [Nathasha](https://uxplanet.org/challenge-009-qr-code-component-535916bbd967) - this article helped to organize my code better, with clear descriptions that made it clearer for me to understand where to go and what kind of div to create
+I'll focus to 'best practice' my code in the future.
 
 ## Author
 
