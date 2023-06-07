@@ -39,7 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
+  margin: 0 20px;
 }
 main {
   display: grid;
@@ -119,6 +119,9 @@ main {
 }
 
 @media (max-width: 760px) {
+  body{
+    margin: 20px;
+  }
   main {
     grid-template-columns: repeat(1, 3fr);
   }
