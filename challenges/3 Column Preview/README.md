@@ -23,7 +23,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-using-html-css-9kojabnwDp)
-- Live Site URL: [Live Site](https://all-frontendmentor.vercel.app/QR%20Code)
+- Live Site URL: [Live Site](https://all-frontendmentor.vercel.app/challenges/3%20Column%20Preview)
 
 ## My process
 
