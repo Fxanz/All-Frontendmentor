@@ -10,7 +10,7 @@
   list-style: none;
   text-decoration: none;
   outline: none;
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease-in-out; */
 }
 
 img,
@@ -40,6 +40,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0 20px;
+  background-color: var(--Very-light-gray);
 }
 main {
   display: grid;
